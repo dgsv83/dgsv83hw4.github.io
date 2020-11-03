@@ -1,0 +1,69 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r}
+data(ny_noaa)
+
+ny_noaa = 
+  ny_noaa %>% 
+  drop_na() %>%
+  separate(date, into = c("year", "month", "day"), convert = TRUE) %>% 
+  mutate(
+    tmax = as.numeric(tmax)/10,
+    tmin = as.numeric(tmin)/10,
+    snow_mm = snow,
+    snow = round(snow_mm * 0.03937 * 4) / 4)
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ny_noaa %>%
+   sample_n(5000) %>%
+   mutate(text_label = str_c("min_Temp: ", tmin, "degree C\nmax_Temp: ", tmax,"degree C")) %>% 
+   plot_ly(
+    x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
+    color = ~year, text = ~text_label, alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ny_noaa %>%
+  sample_n(100000) %>%
+  mutate(year = as.factor(year)) %>%
+  plot_ly(
+    x = ~year, y = ~tmax, type = "box", color = ~year) 
+```
+
+### Chart C
+
+```{r}
+ny_noaa %>% 
+  group_by(year) %>%
+  distinct() %>%
+  count() %>%
+  plot_ly(x = ~year, y = ~n, color = ~year, type = "bar", colors = "viridis")
+```
+
