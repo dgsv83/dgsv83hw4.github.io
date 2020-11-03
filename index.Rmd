@@ -1,0 +1,45 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+
+# Hello world! Welcome to Danyang's awesome website
+
+
+## I just want to share something about myself given this amazing opportunity. 
+
+
+
+
+#If you want to know more about my universities, here are the links:
+
+* [University of British Columbia](https://www.ubc.ca/)
+* [Columbia University](https://www.columbia.edu/)
+* [Columbia University Irving Medical Center](https://www.cuimc.columbia.edu/)
+* [Mailman School of Public Health](https://www.publichealth.columbia.edu/)
+
+
+## Courses Taken In the Past {.tabset}
+
+### Biochemistry
+
+### Chemistry
+
+### Biostatistics
+
+
+
+## Hobbies {.tabset}
+
+### Figure Skating
+
+### Tennis
+
+### Film
+![](image/111.jpg)
+
+

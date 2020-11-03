@@ -1,0 +1,18 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Resume"
+      href: resume.html
+    - text: "Plotly"
+      href: plotly.html    
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<danyang.gui@columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/dgsv83/
+output:
+  html_document:
+    theme: flatly

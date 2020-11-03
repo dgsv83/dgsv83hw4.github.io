@@ -1,0 +1,49 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Danyang (Savannah) Gui
+
+### ACADEMIC BACKGROUND 
+Columbia University
+Master of Science in Biostatistics	New York, NY
+Expected 05/2022 
+University of British Columbia (UBC)
+Bachelor of Science in Biochemistry 	BC, Canada
+09/2015-05/2020 
+	Honors and Awards: Dean’s Honour List (2016 & 2017 school year), Trek Excellence Scholarship (offered by UBC in 2016 for being in the top 5% of the Faculty of Science), Chancellor’s Scholar Award (designated by UBC in 2015 as an entrance award for recognition of academic achievement) 
+
+### RESEARCH EXPERIENCE 
+Phase IV Clinical Trial for Using PEG-rhGH on Treating Children’s Growth Hormone Deficiency 
+Research Assistant, Clinical Pharmacology Research Center, Peking Union Medical College Hospital (PUMCH), Supervisor: Dr. Pei Hu	Beijing, China
+01/2019-04/2019
+	Developed and validated a quantitative enzyme-linked immunosorbent assay (ELISA) to detect and measure
+growth hormone in blood samples
+	Assessed pharmacokinetic parameters, processed data and framed the process validation report 
+	Assisted with the standardized sample management process 
+The Role of Mutated STAT6 in Relapsed and Refractory Diffuse Large B-Cell Lymphoma (DLBCL)
+Research Assistant, McGill University, Supervisor: Dr. Koren K. Mann	QC, Canada
+09/2018-11/2018
+	Conducted extensive literature review to synthesize existing research on DLBCL 
+	Attended regular research group meetings to discuss progress and gain insights for future research
+	Carried out analyses using approaches in GraphPad Prism such as linear/nonlinear regression, ROC curve, t-test, ANOVA, frequency distribution and correlation analysis to deal with data arising in the experiment
+	Obtained a working knowledge of various types of data analytics methodologies and techniques such as Ingenuity Pathway Analysis (IPA), CFSE labeled flow cytometry data analysis and PCA plots analysis 
+Refining the Protocol of Strand-Specific Post-Bisulfite Adapter Ligation(PBAL) 
+Summer Research Student, UBC, Supervisor: Dr. Martin Hirst	BC, Canada
+05/2018-08/2018
+	Determined the exact positions of 5-methylcytosine (m5C) on a single strand of DNA by adopting bisulfite genomic sequencing technology 
+	Computed the optimum ratio and concentration of inosine and guanosine through running multiple assays by Agilent 
+	Collaborated with the computational biologist to verify if errors in the flag count lead to the fact contrary to the hypothesis
+	Developed an in-depth understanding of data visualization in R by preparing the presentation 
+
+
+### ADDITIONAL INFORMATION
+	Language Skills: Mandarin (native); English (professional working proficiency)
+	Computer Skills: Microsoft Office, R, MATLAB
+	Technical Skills: Biochemistry: PCR, qPCR, RT-PCR, agarose gel electrophoresis, SDS-PAGE, DNA/RNA extraction, cell culture, restriction enzyme digestion, enzyme assays, BLAST searches, DNA sequencing, protein purification, protein hanging-drop crystallization, Bradford assay, primer design, Agilent analysis; Chemistry: multi-step organic synthesis, titrations, extractions, distillations, filtrations, recrystallizations, nuclear magnetic resonance/infrared/UV-Vis spectroscopy, gas/column/thin-layer chromatography
+	Interests: Chinese calligraphy, Chinese musical instruments (Erhu, Guzheng, Pipa), figure skating  
+
