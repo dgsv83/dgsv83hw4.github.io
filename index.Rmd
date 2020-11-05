@@ -10,6 +10,8 @@ output:
 ## Hello world! Welcome to Danyang's awesome website
 ![](image/4.jpg)
 
+### Brief Intro
+
 #### I just want to share something about myself given this amazing opportunity. I am a first year Biostatistics Master student in Columbia University. I graduated from University of British Columbia. If you want to know more about my universities, here are the links:
 
 * [University of British Columbia](https://www.ubc.ca/)
@@ -17,7 +19,7 @@ output:
 * [Columbia University Irving Medical Center](https://www.cuimc.columbia.edu/)
 * [Mailman School of Public Health](https://www.publichealth.columbia.edu/)
 
-
+### Hobbies
 #### I love figure skating and tennis!
 
 ![](image/1.jpg)
