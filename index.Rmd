@@ -12,7 +12,7 @@ output:
 
 ### Brief Intro
 
-#### I just want to share something about myself given this amazing opportunity. I am a first year Biostatistics Master student in Columbia University. I graduated from University of British Columbia.I've also attached my shortened version of [resume](resume.html) here. If you want to know more about my universities, here are the links:
+#### I just want to share something about myself given this amazing opportunity. I am a first year Biostatistics Master student in Columbia University. I graduated from University of British Columbia. I've also attached my shortened version of [resume](resume.html) here. If you want to know more about my universities, here are some links that you may find useful:
 
 * [University of British Columbia](https://www.ubc.ca/)
 * [Columbia University](https://www.columbia.edu/)
